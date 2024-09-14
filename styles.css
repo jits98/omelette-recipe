@@ -1,6 +1,7 @@
 body {
   background-color: burlywood;
 }
+
 .content {
   display: flex;
   flex-direction: column;
@@ -8,36 +9,37 @@ body {
   padding: 24px 24px;
   background-color: white;
   font-family: sans-serif;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   border-radius: 16px;
 }
+
 .image {
   height: 350px;
   width: 680px;
   border-radius: 16px;
   margin-bottom: 10px;
 }
+
 h1 {
   font-family: "young-serif";
   color: hsl(24, 5%, 18%);
   margin-bottom: 15px;
 }
+
 h3 {
   font-family: "young-serif";
-  margin-left: 20px;
   color: hsl(332, 51%, 32%);
   font-size: bold;
-  margin-top: 0;
-  margin-bottom: 10px;
+  margin: 0 0 10px 20px;
 }
+
 h2 {
   font-family: "young-serif";
   color: hsl(332, 51%, 32%);
   font-size: bold;
-  margin-top: 0;
-  margin-bottom: 10px;
+  margin: 0 0 10px 0;
 }
+
 .text {
   color: hsl(30, 10%, 34%);
   font-size: 16px;
@@ -46,6 +48,7 @@ h2 {
   width: 638px;
   margin-bottom: 24px;
 }
+
 .time {
   display: flex;
   flex-direction: column;
@@ -55,15 +58,18 @@ h2 {
   border-radius: 12px;
   width: 680px;
 }
+
 li {
   margin-bottom: 14px;
   color: hsl(30, 10%, 34%);
   padding-left: 22px;
 }
+
 .timings {
   color: hsl(14, 45%, 36%);
   font-weight: bold;
 }
+
 .ingredients {
   margin-top: 24px;
   display: flex;
@@ -71,37 +77,44 @@ li {
   border-bottom: 1px solid rgba(95, 87, 78, 0.2);
   margin-bottom: 30px;
 }
+
 li::marker {
   color: hsl(14, 45%, 36%);
 }
+
 .ing {
   padding-left: 22px;
 }
+
 ol {
   list-style: bold;
 }
+
 .inst {
   color: hsl(14, 30%, 34%);
   font-weight: bold;
 }
+
 ol li::marker {
   font-weight: bold;
 }
+
 ol li {
   line-height: 24px;
   margin-bottom: 14px;
 }
+
 .instructions {
   display: flex;
   flex-direction: column;
   border-bottom: 1px solid rgba(95, 87, 78, 0.2);
   margin-bottom: 30px;
 }
+
 .table,
 td {
   border-bottom: 1px solid rgba(95, 87, 78, 0.2);
-  padding-bottom: 10px;
-  padding-top: 10px;
+  padding: 10px 0;
   width: 100%;
 }
 
