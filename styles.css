@@ -5,7 +5,7 @@ body {
 .content {
   display: flex;
   flex-direction: column;
-  width: 42.5rem;
+  width: 50%;
   padding: 24px 24px;
   background-color: white;
   font-family: sans-serif;
@@ -45,7 +45,7 @@ h2 {
   font-size: 16px;
   line-height: 22px;
   font-family: sans-serif;
-  width: 39.875rem;
+  width: 100%;
   margin-bottom: 24px;
 }
 
@@ -56,7 +56,7 @@ h2 {
   background-color: hsl(330, 100%, 98%);
   padding-top: 20px;
   border-radius: 12px;
-  width: 42.5rem;
+  width: 100%;
 }
 
 li {
@@ -120,23 +120,18 @@ td {
 
 .energy {
   color: hsl(30, 10%, 34%);
-  margin-left: 24px;
+  margin-left: 4%;
 }
 
 .energy-number {
   color: hsl(332, 51%, 32%);
   font-weight: bold;
-  margin-right: 280px;
+  margin-right: 160px;
 }
 
 @media screen and (max-width: 480px) {
   .content {
-    width: 18rem;
-    padding: 24px 24px;
-    background-color: white;
-    font-family: sans-serif;
-    margin: 0 auto;
-    border-radius: 16px;
+    width: 80%;
   }
   h1 {
     width: 100%;
@@ -146,6 +141,9 @@ td {
     width: 100%;
   }
   .time {
-    width: 18rem;
+    width: 100%;
+  }
+  .energy-number {
+    margin-right: 80px;
   }
 }
